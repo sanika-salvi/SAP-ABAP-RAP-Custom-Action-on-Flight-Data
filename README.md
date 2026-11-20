@@ -11,7 +11,7 @@ Technologies Used
 - OData V4
 - SAP Fiori Elements
 
-- 
+  
 Development Objects
 - CDS Data Definition: ZR_FLIGHT_ACTION
 - Behavior Definition: ZR_FLIGHT_ACTION
@@ -21,7 +21,7 @@ Development Objects
 - Service Binding: ZUI_FLIGHT_ACTION_O4
 - Data Source: /DMO/FLIGHT
 
-- 
+  
 Features
 - Displays flight records using CDS.
 - Implements an unmanaged RAP behavior.
@@ -30,6 +30,5 @@ Features
 - Retrieves selected flight information.
 - Displays a success message after execution.
 
-- Implementing local handler methods.
 - Exposing RAP services using OData V4.
 - Adding custom actions to Fiori elements applications.
