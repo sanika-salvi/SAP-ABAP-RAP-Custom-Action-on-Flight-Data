@@ -1,0 +1,16 @@
+unmanaged implementation in class zbp_r_flight_action unique;
+strict ( 2 );
+
+define behavior for ZR_FLIGHT_ACTION alias Flight
+//late numbering
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+   action ShowFlightInfo result[1]
+   $self;
+   //create ( authorization : global );
+   //update;
+   //delete;
+   field ( readonly ) CarrierId, ConnectionId, FlightDate;
+}

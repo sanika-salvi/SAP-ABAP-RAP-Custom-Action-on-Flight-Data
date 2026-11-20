@@ -1,0 +1,4 @@
+@EndUserText.label: 'Flight Action Service'
+define service ZUI_FLIGHT_ACTION {
+  expose ZR_FLIGHT_ACTION as FLIGHTS;
+}
